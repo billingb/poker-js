@@ -1,0 +1,23 @@
+{
+  "name": "poker-js",
+  "version": "0.1.0",
+  "description": "Skeleton javascript command line application to implement poker hand indentification utility",
+  "main": "src/application.js",
+  "scripts": {
+    "lint": "jshint src/* spec/*",
+    "test": "mocha spec",
+    "test:watch": "npm run test -- -w",
+    "start": "src/application.js",
+    "exec": "src/application.js"
+  },
+  "author": "Brendan Billingsley",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5"
+  }
+}
